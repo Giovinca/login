@@ -1,6 +1,5 @@
 <?php
 echo "COPYRIGHT : GiovincaID\n\n";
-echo "Contact : ansorgiovinca@gmail.com\n\n";
 echo "Nomor Target?\nInput : ";
 $nomer = trim(fgets(STDIN));
 if(strlen($nomer)==11){
