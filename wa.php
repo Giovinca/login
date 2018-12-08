@@ -1,6 +1,6 @@
 <?php
 echo "COPYRIGHT : GiovincaID\n\n";
-echo "Contact : ansorgiovinca@gmail.com
+echo "Contact : ansorgiovinca@gmail.com\n\n";
 echo "Nomor Target?\nInput : ";
 $nomer = trim(fgets(STDIN));
 if(strlen($nomer)==11){
@@ -52,5 +52,4 @@ Cookie: identity=".$rand1."; browser_id=".$rand2."; _ga=GA1.2.1024758930.1531960
 	curl_setopt($ch, CURLOPT_POSTFIELDS, $ar);
 	$asw = curl_exec($ch);
 	curl_close($ch);
-	print $a.$nomer." [Mengirim]\n";
-}
+	print $a.$nomer." [Sending]\n";
